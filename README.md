@@ -34,11 +34,18 @@ It depends on the density of the subject matter, as to how often I find myself h
 
 ## Installation
 
-To install the highlight clearer bookmarklet, drag the following link into your bookmarks bar.
-(Clear Highlight Bookmarklet)[1]
+To install the highlight clearer bookmarklet, visit the codepen and drag the bookmarklet link to your bookmarks bar: 
+https://codepen.io/toddpress/full/vYKpwNx.
 
-Here's the formatted code: 
+Alternatively, you can just create a new bookmark, and then edit its location to the following:
+```js
+javascript:var sheet = (function() {var style = document.createElement('style'); style.appendChild(document.createTextNode('')); document.head.appendChild(style); return style.sheet;})();sheet.insertRule('*::selection { background-color: transparent !important; }', 0);
+```
 
+### Here's the unformatted code.
+Make (<small>I can't figure out how to get the bookmarklet link to work in github flavored MD</small>)
+
+### Here's the formatted code: 
 ```js
 javascript: var sheet = (function () {
   var style = document.createElement("style");
@@ -49,5 +56,4 @@ javascript: var sheet = (function () {
 sheet.insertRule("*::selection { background-color: transparent !important; }", 0);
 ```
 </section>
-[1]:javascript:%20var%20sheet%20=%20function%20()%20{var%20style%20=%20document.createElement('style');style.appendChild(document.createTextNode(''));document.head.appendChild(style);return%20style.sheet;}();sheet.insertRule('*::selection%20{%20background-color:%20transparent%20!important;%20}',%200);
 </main>
