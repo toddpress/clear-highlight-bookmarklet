@@ -35,8 +35,8 @@ It depends on the density of the subject matter, as to how often I find myself h
 ## Installation
 
 To install the highlight clearer bookmarklet, drag the following link into your bookmarks bar.
-[Clear Highlight Bookmarklet][1]
-[1]:https://codepen.io/toddpress/pen/vYKpwNx.js
+(Clear Highlight Bookmarklet)[1]
+
 Here's the formatted code: 
 
 ```js
@@ -49,5 +49,5 @@ javascript: var sheet = (function () {
 sheet.insertRule("*::selection { background-color: transparent !important; }", 0);
 ```
 </section>
-
+[1]:javascript:%20var%20sheet%20=%20function%20()%20{var%20style%20=%20document.createElement('style');style.appendChild(document.createTextNode(''));document.head.appendChild(style);return%20style.sheet;}();sheet.insertRule('*::selection%20{%20background-color:%20transparent%20!important;%20}',%200);
 </main>
