@@ -1,6 +1,3 @@
-# clear-highlight-bookmarklet
-
-
 <header>
 
 # Clear Highlight Selection Bookmarklet
