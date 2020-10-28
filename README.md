@@ -26,7 +26,7 @@ _See this contrived use-case for a semantic blockquote:_
 > 
 > <footer>-- Todd Pressley <cite>"Stream of Consciousness"</cite></footer>
 
-It depends on the density of the subject matter, as to how often I find myself highlighting and at what "chunk" size. For example, in javascript tutorials, I don't highlight often, at all; however, I highlight often (sometimes 3 words per chunk) when reading a technical article from nasa, say one confirming the presense of water on sunlit surfaces of the moon ([link to youtube video release](https://www.youtube.com/watch?v=pXbuElvuY7Q)), or learning functional reactive programming techniques in Haskell.
+It depends on the density of the subject matter, as to how often I find myself highlighting and at what "chunk" size. For example, in javascript tutorials, I don't highlight much at all; however, I highlight very frequently (sometimes as much as 3 words per chunk) when reading a technical article from nasa, say one confirming the presense of water on sunlit surfaces of the moon ([link to youtube video release](https://www.youtube.com/watch?v=pXbuElvuY7Q)), or learning functional reactive programming techniques in Haskell.
 
 </section>
 
